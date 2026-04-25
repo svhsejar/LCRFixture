@@ -2,7 +2,7 @@
 
 This project provides the documentation and build details for a homebrew interface adapter designed for use with the **HP 4274A**,**HP 4275A** and other Multi-frequency LCR Meters with sane front panel terminal spacing. 
 
-## Zero Cal
+## Zero Cal @ 10Mhz, 0fF (femtofarads)
 ![HP 4275A LCR Fixture](./images/pic2.jpeg)
 # BNC Mount
 ![HP 4274A LCR Fixture](./images/pic3.jpeg)
@@ -49,6 +49,10 @@ The internal wiring length is kept as short as possible and at the same same len
 
 Grouding from each BNC is picked up at the rear of one of the mounting screw, all terminaated at a commoon ground point.
 
+## To Do
+Short test Adapter/PCB
+
+SMD Test PCB/Adapter
 
 ## Tested on 
 I specifically tested this adapter with the following HP LCR Meters.
