@@ -6,7 +6,7 @@ This project provides the documentation and build details for a homebrew interfa
 ![HP 4275A LCR Fixture](./images/pic2.jpeg)
 # BNC Mount
 ![HP 4274A LCR Fixture](./images/pic3.jpeg)
-## Test measurement @10Mhz
+## Test measurement @1Mhz
 ![HP 4274A LCR Fixture](./images/pic4.jpeg)
 
 ## Hardware Overview
