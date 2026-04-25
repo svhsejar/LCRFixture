@@ -1,41 +1,59 @@
 # HP Multi-frequency LCR Adapter
 
-This project provides the documentation and build details for a custom-built interface adapter designed for use with the **HP 4274A** and **HP 4275A** Multi-frequency LCR Meters. 
+This project provides the documentation and build details for a homebrew interface adapter designed for use with the **HP 4274A**,**HP 4275A** and other Multi-frequency LCR Meters with sane front panel terminal spacing. 
 
-The adapter converts the standard four-terminal pair BNC outputs of the LCR meter into standard binding posts/banana jacks, allowing for easy connection of discrete components, test leads, or custom fixtures while maintaining shielding and signal integrity.
+## Zero Cal
+![HP 4275A LCR Fixture](./images/pic2.jpeg)
+# BNC Mount
+![HP 4274A LCR Fixture](./images/pic3.jpeg)
+## Test measurement @10Mhz
+![HP 4274A LCR Fixture](./images/pic4.jpeg)
 
 ## Hardware Overview
-The build is housed in a rugged die-cast aluminum enclosure to provide excellent RF shielding, which is critical for the high-frequency measurements supported by the 4275A. The internal wiring follows a Kelvin sensing (4-wire) configuration to ensure measurement accuracy.
-
-### Project Photos
-Below are the reference images for the completed assembly:
-
-![Internal Wiring](./images/internal_wiring.jpg)
-*Internal layout and shielding*
-
-![Finished Box](./images/finished_box.jpg)
-*Completed adapter with BNC and Binding Post interfaces*
 
 ## Bill of Materials (BOM)
-
 | Component | Model / Part Number | Description | Quantity |
 | :--- | :--- | :--- | :--- |
 | **Enclosure** | Pro'sKit 900-162B | Die Cast Aluminum Box | 1 |
-| **BNC Connectors** | Model 2447 & 2447A | BNC (M) Panel Mount Connectors | 4 |
-| **Banana Jacks** | Model 3750, 3760 & 3770 | Standard Binding Posts (Red, Black, Green) | 1 Set |
-| **Wiring** | 20 AWG / Coaxial | Internal interconnects | As req. |
+| **BNC Connectors** | Pomona Model 2447 & 2447A | BNC (M) Panel Mount Connectors | 4 |
+| **Banana Jacks** | Pomona Model 3750, 3760 & 3770 | Standard Binding Posts (Red/Black/Green) | 2  |
+
+Connector Datsheets provided below for reference:
+* BNC Binding Port Connectors - [Pomona 3750 Datasheet](binding-post.pdf)
+* BNC Connectors - [Pomona 2447A Datasheet](bnc.pdf)
+
 
 ## Fabrication
+* BNC Driling Temaplate - [PDF](bnc-drill.pdf)
+* BNC Driling Temaplate - [SVG](bnc-drill.svg) 
+* Binding Post Driling Temaplate - [svg](banana-drill.svg)
+
+# BNC Drill/Tap
+![BNC Drill/Tap](./images/pic6.jpeg)
+
+# Grouding/Shield
+![Shielding](./images/pic7.jpeg)
+# Complete Wiring
+![Wiring](./images/pic8.jpeg)
+# Drilling Template
+![Drilling Template](./images/pic9.jpeg)
+# Final Assembly
+![Final Assembly](./images/pic10.jpeg)
+
+Note: svgs are provided in case you want to use a CNC or laser cutter for drilling, while the PDF is for manual drilling reference.
+BNC connectors are secured with 4-40 screws, while the binding posts require "D" holes. 
+The internal wiring length is kept as short as possible and at the same same length for all the main signal path.
+Grouding from each BNC is picked up at the rear of one of the mounting screw, all terminaated at a commoon ground point.
+Drilling template are provided, also see pictures before for reference.
+
 
 ### Drilling Template
 To ensure precise alignment of the BNC connectors and binding posts, please refer to the technical drawing files. Precision is required to match the fixed spacing of the HP LCR meter front panel terminals.
 
+
 * [Download Drilling Template (PDF/DXF)](./drawings/drilling_template.pdf)
 
-## Compatibility
-This adapter is specifically designed for:
+## Tested on 
+I specifically tested this adapter with the following HP LCR Meters.
 * **HP 4274A:** Multi-frequency LCR Meter (100Hz - 100kHz)
 * **HP 4275A:** Multi-frequency LCR Meter (10kHz - 10MHz)
-
-## License
-This project is shared for educational and hobbyist use.
