@@ -1,6 +1,6 @@
 # HP Multi-frequency LCR Adapter
 
-This project provides the documentation and build details for a homebrew interface adapter designed for use with the **HP 4274A**,**HP 4275A** and other Multi-frequency LCR Meters with sane front panel terminal spacing. 
+This project provides the documentation and build details for a homebrew interface adapter designed for use with the **HP 4274A**,**HP 4275A** and other Multi-frequency LCR Meters with same front panel terminal spacing. 
 
 ## Zero Cal @ 10Mhz, 0fF (femto farads)
 ![HP 4275A LCR Fixture](./images/pic2.jpeg)
