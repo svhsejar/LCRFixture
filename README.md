@@ -40,11 +40,12 @@ Connector Datsheets provided below for reference:
 # Final Assembly
 ![Final Assembly](./images/pic10.jpeg)
 
+# Design Notes
 Note: svgs are provided in case you want to use a CNC or laser cutter for drilling, while the PDF is for manual drilling reference.
 
 BNC connectors are secured with 4-40 screws, while the binding posts require "D" holes. 
 
-The internal wiring length is kept as short as possible and at the same same length for all the main signal path.
+The internal wiring length is kept as short as possible and at the same same length for all the main signal leads.
 
 Grouding from each BNC is picked up at the rear of one of the mounting screw, all terminaated at a commoon ground point.
 
