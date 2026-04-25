@@ -41,17 +41,13 @@ Connector Datsheets provided below for reference:
 ![Final Assembly](./images/pic10.jpeg)
 
 Note: svgs are provided in case you want to use a CNC or laser cutter for drilling, while the PDF is for manual drilling reference.
+
 BNC connectors are secured with 4-40 screws, while the binding posts require "D" holes. 
+
 The internal wiring length is kept as short as possible and at the same same length for all the main signal path.
+
 Grouding from each BNC is picked up at the rear of one of the mounting screw, all terminaated at a commoon ground point.
-Drilling template are provided, also see pictures before for reference.
 
-
-### Drilling Template
-To ensure precise alignment of the BNC connectors and binding posts, please refer to the technical drawing files. Precision is required to match the fixed spacing of the HP LCR meter front panel terminals.
-
-
-* [Download Drilling Template (PDF/DXF)](./drawings/drilling_template.pdf)
 
 ## Tested on 
 I specifically tested this adapter with the following HP LCR Meters.
