@@ -31,9 +31,9 @@ Connector Datsheets provided below for reference:
 # BNC Drill/Tap
 ![BNC Drill/Tap](./images/pic6.jpeg)
 
-# Grouding/Shield
+# Grouding/Shield termination
 ![Shielding](./images/pic7.jpeg)
-# Complete Wiring
+# Internal Wiring
 ![Wiring](./images/pic8.jpeg)
 # Drilling Template
 ![Drilling Template](./images/pic9.jpeg)
@@ -51,5 +51,5 @@ Grouding from each BNC is picked up at the rear of one of the mounting screw, al
 
 ## Tested on 
 I specifically tested this adapter with the following HP LCR Meters.
-* **HP 4274A:** Multi-frequency LCR Meter (100Hz - 100kHz)
-* **HP 4275A:** Multi-frequency LCR Meter (10kHz - 10MHz)
+* **HP 4274A:** Multi-frequency LCR Meter
+* **HP 4275A:** Multi-frequency LCR Meter 
