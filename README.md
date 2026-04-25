@@ -9,6 +9,11 @@ This project provides the documentation and build details for a homebrew interfa
 ## Test measurement @1Mhz
 ![HP 4274A LCR Fixture](./images/pic4.jpeg)
 
+IMPORTANT: The adapter is designed attach the DUT or UNKNOWN R/L/C directly to the BNC connectors, and not another probe using the banana jacks. The banana jacks are intended for mechanical support, and not extending the measurement leads using another probe.
+
+Yes the Kelvin leads are terminated behind the banana jacks, causing a slight error in the measurement, but this is a tradeoff for ease of use and mechanical stability. I've measured the resitance from the kelvin termination to the top of the banana Jack and it's around 980µ-1m ohms, which is negligible for most measurements, but may be a factor for very low resistance measurements.
+
+
 ## Hardware Overview
 
 ## Bill of Materials (BOM)
